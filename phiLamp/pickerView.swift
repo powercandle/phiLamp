@@ -11,7 +11,7 @@ struct pickerView: View {
     
     
     @State private var isDragging: Bool = false
-    @State private var startLocation: CGFloat = 260
+    @State private var startLocation: CGFloat = 0 //260
     @State private var dragOffset: CGSize = .zero
     
     init(chosenColor: Binding<Color>) {
@@ -33,7 +33,7 @@ struct pickerView: View {
         isDragging ? 35 : 15
     }
     
-    private var linearGradientHeight: CGFloat = 250
+    private var linearGradientHeight: CGFloat = UIScreen.main.bounds.width * 0.85
     
    
     private var currentColor: Color {
@@ -85,7 +85,7 @@ struct pickerView: View {
                 )
                 .offset(x: self.isDragging ? -self.circleWidth : 0.0, y: self.normalizeGesture() - self.circleWidth / 2)
                 .animation(Animation.spring().speed(2))
-        }
+        }.rotationEffect(Angle(degrees: 90))
     }
 }
 

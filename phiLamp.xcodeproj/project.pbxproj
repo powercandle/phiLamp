@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4294FC2289190000013908F /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4294FC128918FFF0013908F /* homeView.swift */; };
 		D493D87528858C8F006574C3 /* phiLampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493D87428858C8F006574C3 /* phiLampApp.swift */; };
 		D493D87728858C8F006574C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493D87628858C8F006574C3 /* ContentView.swift */; };
 		D493D87928858C97006574C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D493D87828858C97006574C3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4294FC128918FFF0013908F /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		D493D87128858C8E006574C3 /* phiLamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phiLamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D493D87428858C8F006574C3 /* phiLampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phiLampApp.swift; sourceTree = "<group>"; };
 		D493D87628858C8F006574C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D493D87628858C8F006574C3 /* ContentView.swift */,
 				D493D888288934B7006574C3 /* exp1.swift */,
 				D493D88228859C2E006574C3 /* pickerView.swift */,
+				D4294FC128918FFF0013908F /* homeView.swift */,
 				D493D87828858C97006574C3 /* Assets.xcassets */,
 				D493D87A28858C97006574C3 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				D493D87728858C8F006574C3 /* ContentView.swift in Sources */,
 				D493D87528858C8F006574C3 /* phiLampApp.swift in Sources */,
 				D493D88328859C2F006574C3 /* pickerView.swift in Sources */,
+				D4294FC2289190000013908F /* homeView.swift in Sources */,
 				D493D889288934B7006574C3 /* exp1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
